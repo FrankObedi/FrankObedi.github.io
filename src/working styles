@@ -1,0 +1,394 @@
+.CornerDesign::after{
+  content: '';
+  position: absolute;  
+  left: -5px;
+  top: 3%;
+  width: 5px;
+  height: 150px;
+  background: 
+  linear-gradient(135deg, transparent 25px, #78cce2 0) top left,
+  linear-gradient(45deg, transparent 25px, #78cce2 0) bottom left;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+.NavWindow::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+      linear-gradient(-135deg, transparent 25px, var(--window-bg) 0) top left,
+      linear-gradient(45deg, transparent 15px, var(--window-bg) 0) bottom right;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;  
+   
+    overflow: hidden;
+  }
+  
+  .NavWindow::before{
+    content: '';
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    background-image: url(./assets/main-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(18px); /*important!*/
+    border-radius: 2rem;
+  }
+  
+  .SideLine::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    background: 
+    linear-gradient(-135deg, transparent 25px, #78cce2 0) top left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .SideLine::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 104%;
+    top: 0;
+    left: 0;   
+    background: 
+    linear-gradient(45deg, transparent 25px, #78cce2 0) top left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .CornerLine::before{
+    content: '';
+    position: absolute;  
+    right: 0;
+    top: -13%;
+    width: 2px;
+    height: 170px;
+    background: 
+    linear-gradient(-135deg, transparent 25px, #78cce2 0) top left,
+    linear-gradient(45deg, transparent 25px, #78cce2 0) bottom right;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    transform: rotate(135deg);
+  }
+  
+  .CornerLine::after{
+    content: '';
+    position: absolute;  
+    left: 10px;
+    bottom: -38px;
+    width: 2px;
+    height: 97px;
+    background: 
+    linear-gradient(-135deg, transparent 25px, #78cce2 0) top left,
+    linear-gradient(45deg, transparent 25px, #78cce2 0) bottom right;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    transform: rotate(-45deg);
+  }
+  
+  .TopLine::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 87%;
+    height: 2.5px;    
+    background: #78cce2;                       
+  }
+  .TopLine::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 93%;
+    height: 2.5px;    
+    background: #78cce2;                       
+  }
+
+
+  /* -------------------------- NoT SURE -------------------------------- */
+  /* .NavWindow::before{
+  bottom: -4em;
+  left: 0;
+  width: 65%;
+  height: 13em;
+  border-bottom-left-radius: inherit;
+} */
+
+/* .CornerLine::after{
+  content: '';
+  position: absolute;  
+  left: -5px;
+  top: 3%;
+  width: 5px;
+  height: 150px;
+  background: 
+  linear-gradient(135deg, transparent 25px, #78cce2 0) top left,
+  linear-gradient(45deg, transparent 25px, #78cce2 0) bottom left;
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+} */
+
+
+
+
+.NavWindow{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin: 0 1.2rem 0 5.5rem;
+    padding: 5rem 0 5rem 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    border-top-right-radius: 1.2rem;  
+    border-bottom-right-radius: 3.39rem;
+    border-bottom-left-radius: 1.2rem;
+    border: 2px solid #fff;
+    left: -400px;
+    transition: all 0.25s;
+      -webkit-transition: all 0.25s;
+  } 
+  
+  .NavWindow::before,
+  .NavWindow::after{
+    content: '';
+    position: absolute;
+  }
+  
+  /* top */
+  .NavWindow::before{
+    top: -8.35rem;
+    left: 45%;
+    width: 11px;
+    height: 80%;
+    background: 
+    linear-gradient(135deg, transparent 25px, #ffffff 0) top left,
+    linear-gradient(45deg, transparent 25px, #ffffff 0) bottom left;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+  }
+  
+  /* bottom right */
+  .NavWindow::after{
+    bottom: -39px;
+    right: 0.8em;
+    width: 11px;
+    height: 115px;
+    background: 
+      linear-gradient(-135deg, transparent 25px, #ffffff 0) top left,
+      linear-gradient(-45deg, transparent 25px, #ffffff 0) bottom right;
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+  }
+
+
+
+
+
+  
+
+/* ------------------- Menu Window Styles ------------------- */
+.BlurEffect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/main-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: inherit;  
+    filter: blur(25px); 
+    z-index: -1;
+  }
+  
+  .NavWindow{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin: 0 1.2rem 0 5.5rem;
+    padding: 5rem 0 5rem 0;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black*/
+    border-top-right-radius: 1.2rem;  
+    border-bottom-right-radius: 3.41rem;
+    border-bottom-left-radius: 1.2rem;
+    border: 2px solid #fff;
+    left: -400px;
+    transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+  } 
+  
+  .NavWindow::before,
+  .NavWindow::after{
+    content: '';
+    position: absolute;
+  }
+  
+  /* top */
+  .NavWindow::before{
+    top: -8.35rem;
+    left: 45%;
+    width: 11px;
+    height: 80%;
+    background: 
+    linear-gradient(135deg, transparent 25px, #ffffff 0) top left,
+    linear-gradient(45deg, transparent 25px, #ffffff 0) bottom left;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+  }
+  
+  /* bottom right */
+  .NavWindow::after{
+    bottom: -40px;
+    right: 0.8em;
+    width: 11px;
+    height: 117px;
+    background: 
+      linear-gradient(-135deg, transparent 25px, #ffffff 0) top left,
+      linear-gradient(-45deg, transparent 25px, #ffffff 0) bottom right;
+    background-size: 100% 55%;
+    background-repeat: no-repeat;
+    transform: rotate(45deg);
+  }
+  
+  .ShowNav{
+    left: 0;
+  }
+
+
+
+  /* MOBILE PROJECTS WINDOW */
+   /* .ProjectsContainer,
+  .Portfolio .TitleContainer{
+    width: 90%;
+  }
+
+  .Portfolio .TitleContainer{
+    background-size: 260px;
+  }
+
+  .TitleContainer::before{
+    width: 197px;
+  }
+
+  .TitleContainer::after{
+    width: calc(100% - 233px);
+  }
+
+  .Portfolio h1{
+    font-size: 125%;
+  }
+
+  .LongDescContainer{
+    max-width: 95%;
+  }
+
+  .TitleContainer .EdgeLine{
+    content: '';
+    position: absolute;
+    width: 75px;
+    left: 170px;
+  }
+
+  .LongDesc{
+    padding: 15px;
+  } */
+
+/* TABLET PROJECTS WINDOW */
+
+  /* .ProjectsContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .TitleContainer::before{
+    width: 197px;
+  }
+  
+  .TitleContainer::after{
+    width: calc(100% - 233px);
+  }
+
+  .TitleContainer .EdgeLine{
+    content: '';
+    position: absolute;
+    width: 75px;
+    left: 170px;
+  }
+
+  .Portfolio h1{
+    font-size: 125%;
+  } */
+
+
+
+  
+.nav-container::before{
+  content: '';
+  position: absolute;
+  width: 15%;
+  height: 65px;
+  background: 
+    linear-gradient(-45deg, transparent 55px, rgba(0, 0, 0, 0.938) 0)
+  ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.nav-container::after{
+  content: '';
+  position: absolute;
+  width: 15%;
+  height: 65px;
+  background: 
+    linear-gradient(45deg, transparent 55px, rgba(0, 0, 0, 0.938) 0)
+  ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.top-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 15px 35px;
+  align-items: center;
+}
+
+.top-nav::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.938);
+}
