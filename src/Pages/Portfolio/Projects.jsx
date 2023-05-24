@@ -38,6 +38,7 @@ export default function Project() {
                     buttonText={project.buttonText}
                     link={project.link}
                     linkTarget={project.linkTarget}
+                    isVideo={project.isVideo}
                   />
                 );
               }

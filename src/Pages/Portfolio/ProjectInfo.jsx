@@ -5,6 +5,7 @@ import PlaylistBot from "../../assets/images/PlaylistBot.png";
 export const ProjectsInfo = [
   {
     image: BSM,
+    isVideo: true,
     title: "Bike Shop Manager",
     shortDesc: ` 
       Bike Shop Manager (BSM) is a work order management system for
@@ -30,6 +31,7 @@ export const ProjectsInfo = [
   },
   {
     image: CityWeather,
+    isVideo: false,
     title: "CityWeather Web App",
     shortDesc: "Weather Forecasting App",
     buttonText: "See It Live",
@@ -38,6 +40,7 @@ export const ProjectsInfo = [
   },
   {
     image: PlaylistBot,
+    isVideo: false,
     title: "Playlist Bot",
     shortDesc:
       "Discord/Selenium web bot that automatically adds songs to a Spotify playlist",

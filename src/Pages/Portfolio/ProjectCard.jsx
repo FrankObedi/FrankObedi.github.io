@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import LongDesc from "./LongDesc";
 import ImageLoader from "./ImageLoader";
+import VideoLoader from "./VideoLoader";
 export default function ProjectCard({
   image,
   title,
@@ -10,6 +11,7 @@ export default function ProjectCard({
   link,
   linkTarget,
   cardRef,
+  isVideo,
 }) {
   const [showLongDesc, setLongDesc] = useState(false);
   function HandleClick(e) {
@@ -48,12 +50,17 @@ export default function ProjectCard({
             </a>
           </div>
         </div>
-        <ImageLoader
-          className={"project-card-img"}
-          ImageSrc={image}
-          caption={title}
-          ImgSize={"150px"}
-        />
+
+        {isVideo ? (
+          <VideoLoader />
+        ) : (
+          <ImageLoader
+            className={"project-card-img"}
+            ImageSrc={image}
+            caption={title}
+            ImgSize={"150px"}
+          />
+        )}
       </div>
     </>
   );

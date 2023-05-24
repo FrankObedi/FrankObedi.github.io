@@ -18,7 +18,7 @@ export default function Profile() {
                 I am a student majoring in computer science at Wilfrid Laurier
                 University. I am passionate about software engineering,
                 front-end and web development. Currently working towards turning
-                my passion into a career as a software engineering.
+                my passion into a career as a software engineer.
               </p>
               <div className="links">
                 <a

@@ -82,6 +82,11 @@ svg{
   padding-left: 35px;
 }
 
+.nav-toggle{
+  height: 100%;
+  padding: 15px;
+}
+
 .bx-menu{
   display: none;
 }
@@ -89,7 +94,7 @@ svg{
 .top-nav ul{
   display: flex;
   list-style-type: none;
-  padding: 15px;
+  padding: 11px;
 }
 
 .top-nav ul li{
@@ -149,10 +154,11 @@ svg{
 
 
 section{
-  min-height: calc(100vh - 50px);
-  display: flex;
-  align-items: center;
-  padding-bottom: 45px;
+  min-height: calc(100vh - 70px);
+  /* display: flex; */
+  /* align-items: center; */
+  padding-top: 15px;
+  padding-bottom: 60px;
 }
 
 .content{
@@ -742,6 +748,10 @@ section{
 
 .project-card-img{
   border: 1px solid var(--window-border-color2);
+  width: 100%;
+}
+
+.video-card{
   width: 100%;
 }
 
@@ -1501,12 +1511,7 @@ section{
 
 
 /* Tablets */
-@media (max-width: 760px) {
-
-  .main-page{
-    margin-top: 60px;
-    height: calc(100vh - 60px);
-  }
+@media (max-width: 830px) {
 
   .content-wrapper{
     padding: 10px;
@@ -1520,14 +1525,16 @@ section{
   .project-card{
     row-gap: 5px;
   }
+}
 
+@media (max-height: 800px){
   .contact-form-section{
     padding-bottom: 150px;
   }
-
+  
 }
 
-@media (max-width: 730px) {
+@media (max-width: 830px) {
 
   .profile img{
     grid-area: 1/1;
@@ -1581,7 +1588,7 @@ section{
 }
 
 /* Phones */
-@media (max-width: 570px){
+@media (max-width: 670px){
 
   /* Profile sections */
   .profile-info{
@@ -1601,6 +1608,10 @@ section{
     flex-direction: column-reverse;
     row-gap: 5px;
     align-items: center;
+  }
+
+  .project-info{
+    width: 100%;
   }
 
   .project-card-img{
