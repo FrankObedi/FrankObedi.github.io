@@ -52,7 +52,7 @@ Error generating stack: `+i.message+`
       to any work order, customer or item for repair through CRUD 
       operation. All this information is stored on a SQL database created
       using MySQL Workbench.
-    `,buttonText:"Read More",link:"#",linkTarget:"_self"},{image:Hd,isVideo:!1,title:"City Weather Web App",shortDesc:`City Weather is simple weather app I built using Python, Flask, HTML, CSS, Javascript and the OpenWeatherMap API.
+    `,buttonText:"Read More",link:"#",linkTarget:"_self"},{image:Hd,isVideo:!1,title:"City Weather Web App",shortDesc:`City Weather is simple weather app I built using Python, Flask, HTML, CSS, JavaScript and the OpenWeatherMap API.
                The app provides the current weather conditions, five day forecast and current air quality of any city in the world.`,buttonText:"See It Live",link:"https://cityweatherapp.onrender.com/",linkTarget:"_blank"},{image:Wd,isVideo:!1,title:"Playlist Bot",shortDesc:"Discord/Selenium web bot that automatically adds songs to a Spotify playlist",longDesc:`
     Implemented a Discord Bot using Python to respond to user commands and 
     collect song requests from friends in a discord chat and save them to a database.
