@@ -15,13 +15,12 @@ export default function Profile() {
             <div className="about-paragraph">
               <p>
                 Hi, I'm <span>Frank Obedi</span>, an aspiring full-stack
-                developer and 4th year Computer Science student at WLU. an
-                aspiring full-stack developer. I'm currently a 4th year computer
-                science student at WLU. I recently graduated from the Production
-                Engineering fellowship at MLH and Meta where I sharpened my
-                skills in building scalable and reliable systems. I've also
-                worked as a web development intern at North York Arts, creating
-                digital solutions to support local arts initiatives.
+                developer and 4th year Computer Science student at WLU. I
+                recently graduated from the Production Engineering fellowship at
+                MLH and Meta where I sharpened my skills in building scalable
+                and reliable systems. I've also worked as a web development
+                intern at North York Arts, creating digital solutions to support
+                local arts initiatives.
               </p>
               <div className="links">
                 <a
