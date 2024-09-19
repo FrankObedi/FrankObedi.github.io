@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImg from "../../../src/assets/images/ProfileImg.png";
+import ProfileImg from "../../../src/assets/images/ProfileImg3.png";
 // import { a } from "react-router-dom";
 import Skills from "./Skills";
 import Courses from "./Courses";

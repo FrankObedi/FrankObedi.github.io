@@ -32,23 +32,21 @@ export const ProjectsInfo = [
   {
     image: CityWeather,
     isVideo: false,
-    title: "CityWeather Web App",
-    shortDesc: "Weather Forecasting App",
-    buttonText: "See It Live",
-    link: "https://frankobedi-cityweather.vercel.app/",
+    title: "CityWeather App",
+    shortDesc:
+      "Gained hands-on experience with RESTful APIs, data handling, and web development by developing a weather app with Flask and the OpenWeatherMap API.",
+    buttonText: "Live Demo",
+    link: "https://city-weather-app-virid.vercel.app/",
     linkTarget: "_blank",
   },
   {
     image: PlaylistBot,
     isVideo: false,
-    title: "Playlist Bot",
-    shortDesc:
-      "Discord/Selenium web bot that automatically adds songs to a Spotify playlist",
+    title: "Connect 4 AI",
+    shortDesc: "Simple yet unbeatable AI for the classic game of Connect 4",
     longDesc: `
-    Implemented a Discord Bot using Python to respond to user commands and 
-    collect song requests from friends in a discord chat and save them to a database.
-    Utilized Selenium web automation tool to create a web bot to retrieve songs 
-    from database and add them to a Spotify playlist. `,
+    Implemented an AI system that plays the classic game of Connect 4 using Python and Flask. 
+    I'm currently working on putting the project online so people can access and play the game.`,
     buttonText: "Read More",
     link: "#",
     linkTarget: "_self",
