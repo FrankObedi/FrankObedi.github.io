@@ -14,11 +14,14 @@ export default function Profile() {
           <div className="profile-info">
             <div className="about-paragraph">
               <p>
-                Hi there, nice to meet you! My name is <span>Frank Obedi</span>.
-                I am a student majoring in computer science at Wilfrid Laurier
-                University. I am passionate about software engineering,
-                front-end and web development. Currently working towards turning
-                my passion into a career as a software engineer.
+                Hi, I'm <span>Frank Obedi</span>, an aspiring full-stack
+                developer and 4th year Computer Science student at WLU. an
+                aspiring full-stack developer. I'm currently a 4th year computer
+                science student at WLU. I recently graduated from the Production
+                Engineering fellowship at MLH and Meta where I sharpened my
+                skills in building scalable and reliable systems. I've also
+                worked as a web development intern at North York Arts, creating
+                digital solutions to support local arts initiatives.
               </p>
               <div className="links">
                 <a
@@ -50,7 +53,7 @@ export default function Profile() {
             <p>
               <span>Status: </span>
               <br />
-              Currently looking for summer 2023 and fall 2023 internship
+              Currently looking for winter/summer 2025 internships
             </p>
           </div>
           <ImageLoader
@@ -58,7 +61,6 @@ export default function Profile() {
             caption={"Profile Image"}
             ImgSize={"300px"}
           />
-          {/* <img className="profile-img" src={ProfileImg} alt="profile image" /> */}
         </div>
         <div className="profile-skills-section">
           <Skills />
