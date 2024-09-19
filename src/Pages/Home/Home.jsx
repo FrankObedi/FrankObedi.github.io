@@ -24,7 +24,7 @@ export default function Profile() {
               </p>
               <div className="links">
                 <a
-                  href="/files/FrankSoftwareResume.pdf"
+                  href="/files/Frank_Obedi_Resume.pdf"
                   className="cv-btn"
                   target="_blank"
                   download
