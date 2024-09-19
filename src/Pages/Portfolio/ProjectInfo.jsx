@@ -1,6 +1,6 @@
 import BSM from "../../assets/images/BSM.png";
 import CityWeather from "../../assets/images/CityWeather.png";
-import PlaylistBot from "../../assets/images/PlaylistBot.png";
+import Connect4 from "../../assets/images/Connect4.png";
 
 export const ProjectsInfo = [
   {
@@ -40,7 +40,7 @@ export const ProjectsInfo = [
     linkTarget: "_blank",
   },
   {
-    image: PlaylistBot,
+    image: Connect4,
     isVideo: false,
     title: "Connect 4 AI",
     shortDesc: "Simple yet unbeatable AI for the classic game of Connect 4",
