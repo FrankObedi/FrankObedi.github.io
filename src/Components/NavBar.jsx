@@ -13,7 +13,9 @@ export default function NavBar({ scrollToSection, elementRefs }) {
     <>
       <nav className="top-nav">
         <div className="nav-toggle">
-          <h1 className="logo">Frank Obedi</h1>
+          <h1 className="logo">
+            <a href="/">Frank Obedi</a>
+          </h1>
           <i
             className={`bx  ${openNav ? "bx-x" : "bx-menu"}`}
             onClick={() => setOpenNav(!openNav)}
