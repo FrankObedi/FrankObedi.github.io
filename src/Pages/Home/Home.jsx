@@ -58,7 +58,7 @@ export default function Profile() {
           />
         </div>
         <div className="profile-skills-section">
-          <Tech Stack />
+          <Skills />
           <Experience />
         </div>
       </div>
