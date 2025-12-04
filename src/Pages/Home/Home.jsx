@@ -2,8 +2,7 @@ import React from "react";
 import ProfileImg from "../../../src/assets/images/ProfileImg3.png";
 // import { a } from "react-router-dom";
 import Skills from "./Skills";
-// import Courses from "./Courses";
-import Experience from "./Experiece";
+import Courses from "./Courses";
 import ImageLoader from "../Portfolio/ImageLoader";
 
 export default function Profile() {
@@ -60,7 +59,7 @@ export default function Profile() {
         </div>
         <div className="profile-skills-section">
           <Skills />
-          <Experience />
+          <Courses />
         </div>
       </div>
     </>
