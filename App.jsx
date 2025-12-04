@@ -59,13 +59,13 @@ function App() {
               </div>
             </section>
 
-            <section
+            {/* <section
               ref={Portfolio}
               className="portfolio-section"
               id="Portfolio"
             >
               <Projects />
-            </section>
+            </section> */}
 
             <section
               ref={Contact}
