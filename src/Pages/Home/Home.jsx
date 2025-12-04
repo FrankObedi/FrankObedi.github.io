@@ -48,7 +48,7 @@ export default function Profile() {
             <p>
               <span>Status: </span>
               <br />
-              Helping build future payment technologies
+              Building future payments technologies
             </p>
           </div>
           <ImageLoader
@@ -58,8 +58,8 @@ export default function Profile() {
           />
         </div>
         <div className="profile-skills-section">
-          <Skills />
-          <Courses />
+          <Tech Stack />
+          <Experience />
         </div>
       </div>
     </>
