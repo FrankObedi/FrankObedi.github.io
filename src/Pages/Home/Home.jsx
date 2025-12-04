@@ -16,8 +16,7 @@ export default function Profile() {
               <p>
                 Hi, I'm <span>Frank Obedi</span>, I’m a software engineer specializing in test automation, 
                 with experience building automation frameworks using tools such as Selenium WebDriver, Cucumber (BDD), 
-                RestAssured, Postman, and Jenkins. I’m passionate about improving product quality,
-                streamlining CI/CD pipelines, and collaborating with development teams to deliver fast, stable releases.
+                RestAssured, Postman, and Jenkins.
               </p>
               <div className="links">
                 <a
