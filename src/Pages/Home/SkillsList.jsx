@@ -3,18 +3,18 @@ export const SkillsList = [
     skillName: "Java",
   },
   {
-    skillName: "Python",
+    skillName: "Selenium Webdriver",
   },
   {
-    skillName: "React",
+    skillName: "Cucumber (BDD)",
   },
   {
-    skillName: "JavaScript",
+    skillName: "Postman",
   },
   {
-    skillName: "HTML5",
+    skillName: "RestAssured",
   },
   {
-    skillName: "CSS3",
+    skillName: "Jenkins",
   },
 ];
