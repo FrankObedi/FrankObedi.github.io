@@ -8,7 +8,7 @@ export const CourseList = [
     courseName: "Production Engineering Fellow [ MLH ]",
   },
   {
-    courseName: "Web Development Intern [ Lakeshore Arts ]",
+    courseName: "Web Developer [ Lakeshore Arts ]",
   },
   {
     courseName: "Web Development Intern [ North York Arts ]",
