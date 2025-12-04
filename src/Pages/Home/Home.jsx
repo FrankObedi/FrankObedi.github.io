@@ -14,13 +14,10 @@ export default function Profile() {
           <div className="profile-info">
             <div className="about-paragraph">
               <p>
-                Hi, I'm <span>Frank Obedi</span>, an aspiring full-stack
-                developer and 4th year Computer Science student at WLU. I
-                recently graduated from the Production Engineering fellowship at
-                MLH and Meta where I sharpened my skills in building scalable
-                and reliable systems. I've also worked as a web development
-                intern at North York Arts, creating digital solutions to support
-                local arts initiatives.
+                Hi, I'm <span>Frank Obedi</span>, I’m a software engineer specializing in test automation, 
+                with experience building automation frameworks using tools such as Selenium WebDriver, Cucumber (BDD), 
+                RestAssured, Postman, and Jenkins. I’m passionate about improving product quality,
+                streamlining CI/CD pipelines, and collaborating with development teams to deliver fast, stable releases.
               </p>
               <div className="links">
                 <a
@@ -52,7 +49,7 @@ export default function Profile() {
             <p>
               <span>Status: </span>
               <br />
-              Currently looking for winter/summer 2025 internships
+              Building future payments technologies
             </p>
           </div>
           <ImageLoader
