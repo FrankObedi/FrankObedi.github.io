@@ -2,7 +2,8 @@ import React from "react";
 import ProfileImg from "../../../src/assets/images/ProfileImg3.png";
 // import { a } from "react-router-dom";
 import Skills from "./Skills";
-import Courses from "./Courses";
+// import Courses from "./Courses";
+import Experience from "./Experiece";
 import ImageLoader from "../Portfolio/ImageLoader";
 
 export default function Profile() {
