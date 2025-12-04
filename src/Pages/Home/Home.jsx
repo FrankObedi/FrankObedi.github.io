@@ -49,7 +49,7 @@ export default function Profile() {
             <p>
               <span>Status: </span>
               <br />
-              Building future payments technologies
+              Helping build future payment technologies
             </p>
           </div>
           <ImageLoader
